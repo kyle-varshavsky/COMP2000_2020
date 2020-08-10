@@ -15,7 +15,7 @@ class Cell{
     //methods
     void paint(Graphics g, Point mousePos){
         if(contains(mousePos)){
-            g.setColor(Color.GRAY);
+            g.setColor(Color.BLUE);
         } else {
             g.setColor(Color.WHITE);
         }
